@@ -22,7 +22,7 @@ def get_names(spicy_foods):
 
 def get_spiciest_foods(spicy_foods):
    # return[spiciest_food['heat_level']for spiciest_food in spicy_foods]
-    return[spicy_food for spicy_food in spicy_foods if spicy_food.get('heat_level',0)>5]
+    return[spiciest_food for spiciest_food in spicy_foods if spiciest_food.get('heat_level',0)>5]
     pass
 
 def print_spicy_foods(spicy_foods):
